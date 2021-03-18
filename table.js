@@ -12,7 +12,7 @@ class Product {
 }
 
 class Invoice {
-  constructor(invoiceNum,taxCost,trackingNum){
+  constructor(pdftxt){
          this.products      = []
     this["Order Number"]    = invoiceNum;
     this["Tax"]             = taxCost;

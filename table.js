@@ -31,7 +31,21 @@ class Invoice {
         throw error
       }
       return true
-      
+  }
+  get grandTotal(){
+    let grandTotal = 0;
+    this.products.forEach(p=>{
+      grandTotal = grandTotal+(p.perItemCost*p.qty)
+    })
+    return grandTotal
+    
+  }
+  get taxRate(){
+    if(this.products.length === 0){
+      return 0.00
+    }
+    this.grandTotal/this.
+
   }
 }
 

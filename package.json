@@ -15,5 +15,8 @@
     "pdf-extract": "^1.0.11",
     "pdf-parse": "^1.1.1",
     "pdf-text-extract": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
